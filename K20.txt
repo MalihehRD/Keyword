@@ -1,0 +1,48 @@
+/c/d/git/G1269 
+
+git checkout -b K7Malihehcreeunlien    -- Create new branch from master
+
+git checkout -b K18Supprimerarticle
+git checkout -b K29CreerfichierHTML
+git checkout -b K40Supprimer un filtre
+
+git add .				
+git commit -m "Ajout Keyword Maliheh K18 Supprimerarticle"
+git push origin K7Malihehcreeunlien   --nom branche					Envoi vers le serveur:
+
+
+
+====================================================================
+/
+Définir son compte :
+git config --global user.name "Your name"
+Définir son adresse email :
+git config --global user.email "your_email@example.com"
+Créer une copie du projet sur votre compte :
+fork
+Copier le projet en local sur Git for Windows :
+git clone "nom du repository"
+Accéder à un repository en local :
+cd "nom du repository"
+Créer une branche :
+git checkout -b "nom de la branche"
+Ajouter le fichier modifié
+git add "nom de fichier"
+Ajouter toutes les modifications :
+git add .
+Faire un commit avec les modifications :
+git commit -m "Votre commentaire"
+Envoi vers le serveur :
+git push origin "nom de la branche en cours"
+Revenir sur la branche Master :
+git checkout master
+Appeler la branche du serveur Github :
+git remote add upstream https://github.com/zidtalel/G271
+Lancer la synchronisation :
+git pull https://github.com/zidtalel/G271 master
+Supprimer la branche en local et sur Git :
+git branch -d "nom de la branche"
+Supprimer la branche sur le serveur Github :
+git push origin --delete "nom de la branche"
+Supprimer un fichier du repository
+git rm "nom de fichier"
